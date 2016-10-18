@@ -3,9 +3,22 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <!-- jquery -->
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+    <!-- materialize -->
+     <!-- Compiled and minified CSS -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+	  <!-- Compiled and minified JavaScript -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  	<p class="intro">This is the prototype for a smart education platform, engineered for the NUS course Strategic IT applications. Enter the demo by selecting the user type below.</p>
+    <a class="waves-effect waves-light btn-large selection">Student</a>
+    <a class="waves-effect waves-light btn-large selection">Teacher</a>
   </body>
 </html>

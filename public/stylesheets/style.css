@@ -1,8 +1,11 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+body .intro {
+  text-align: center;
+  max-width: 500px;
+  margin: 200px auto 0 auto; }
 
-a {
-  color: #00B7FF; }
+body .selection {
+  display: block;
+  max-width: 200px;
+  margin: 20px auto; }
 
 /*# sourceMappingURL=style.css.map */
