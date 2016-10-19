@@ -1,0 +1,27 @@
+body {
+	.intro {
+		text-align: center;
+		max-width: 500px;
+		margin: 200px auto 0 auto;
+	}
+	.selection {
+		display: block;
+		max-width: 200px;
+		margin: 20px auto;
+	}
+
+
+    header, footer, main {
+      padding-left: 300px;
+    }
+
+    
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+}
+        

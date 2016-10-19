@@ -8,4 +8,11 @@ body .selection {
   max-width: 200px;
   margin: 20px auto; }
 
+body header, body footer, body main {
+  padding-left: 300px; }
+
+@media only screen and (max-width: 992px) {
+  body header, body main, body footer {
+    padding-left: 0; } }
+
 /*# sourceMappingURL=style.css.map */
