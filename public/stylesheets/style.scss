@@ -15,7 +15,15 @@ body {
       padding-left: 300px;
     }
 
-    
+    header {
+    	.brand-logo {
+    		margin-left: 12px;
+    	}
+    }
+
+    .dashboard_performance_image {
+    	max-width: 95%;
+    }
 
     @media only screen and (max-width : 992px) {
       header, main, footer {

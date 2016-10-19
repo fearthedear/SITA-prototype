@@ -11,6 +11,12 @@ body .selection {
 body header, body footer, body main {
   padding-left: 300px; }
 
+body header .brand-logo {
+  margin-left: 12px; }
+
+body .dashboard_performance_image {
+  max-width: 95%; }
+
 @media only screen and (max-width: 992px) {
   body header, body main, body footer {
     padding-left: 0; } }
