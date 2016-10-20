@@ -25,6 +25,11 @@ body {
     	max-width: 95%;
     }
 
+    .deadline {
+    	position: absolute;
+    	right: 10px;
+    }
+
     @media only screen and (max-width : 992px) {
       header, main, footer {
         padding-left: 0;

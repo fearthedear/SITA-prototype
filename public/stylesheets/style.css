@@ -17,6 +17,10 @@ body header .brand-logo {
 body .dashboard_performance_image {
   max-width: 95%; }
 
+body .deadline {
+  position: absolute;
+  right: 10px; }
+
 @media only screen and (max-width: 992px) {
   body header, body main, body footer {
     padding-left: 0; } }
