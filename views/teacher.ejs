@@ -5,7 +5,7 @@
 
 <% include partials/teacher-sidenav %>
 <header>
-<% include partials/teacher-nav %>
+<%- include('partials/teacher-nav', {page: page}) %>
 </header>
 
 <body>
@@ -79,9 +79,11 @@
 	              <span class="card-title">INBOX</span>
 				    <ul class="collection with-header">
 			        	<li class="collection-header black-text"><h6>Messages</h6></li>
-				        <li><a href="#!" class="collection-item">Today, 11:33 am, John Doe: Hi Teacher, I'm struggling to get a hang of ...</a></li>
-				        <li><a href="#!" class="collection-item">Chat</a></li>
-				        <li><a href="#!" class="collection-item">Phone</a></li>
+				        <li><a href="#!" class="collection-item">John Doe (11:33): Hi Teacher, I'm struggling to get a hang of ...</a></li>
+				        <li><a href="#!" class="collection-item">Michael Wong (11:33): Dear Mr Teacher, I was wondering ...</a></li>
+				        <li><a href="#!" class="collection-item">Michelle Wong (11:33): Hi Teacher, during this weeks' lecture you...</a></li>
+				        <div class="divider"></div>
+				        <li><a href="#!" class="collection-item">Show all</a></li>
 				    </ul>
 	          </div>
 	        </div>
