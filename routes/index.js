@@ -22,4 +22,7 @@ router.get('/calendar', function (req, res) {
 	res.render('calendar', { page: 'Calendar'});
 })
 
+router.get('/assistant', function (req, res) {
+	res.render('assistant', { page: 'Assistant'});
+})
 module.exports = router;
